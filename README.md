@@ -1,5 +1,5 @@
 # SMART PRICE LIST
-A very dead minimalistic price list with some filter tools
+A very minimalistic price list with some filter tools
 
 ## Technologies used
 
