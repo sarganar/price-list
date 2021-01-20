@@ -160,6 +160,22 @@ const products = [
     ],
   },
   {
+    name: "Medallon de Pollo con Espinaca",
+    categories: "GRAL",
+    brand: "Artico",
+    tags: ["rebozado"],
+    product: [
+      {
+        presentation: "x6Kg",
+        price: "2286",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+    {
     name: "Papa Coolmind 10mm",
     categories: "PAP",
     brand: "Simplot",
