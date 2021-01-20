@@ -16,7 +16,7 @@ function initApp() {
   keyedFullProducts = keyBy(fullProducts, "id");
   enrichProducts(keyedFullProducts);
 
-  console.log("keyedFullProducts:", keyedFullProducts);
+  // console.log("keyedFullProducts:", keyedFullProducts);
   categorizedProducts = buildCategorizedProducts(fullProducts);
 
   printProducts();
@@ -48,9 +48,9 @@ function buildCategorizedProducts(fullProducts) {
   fullProducts.forEach((product) => categoriesSet.add(product.categories));
 
   let categoryObj = [];
-  console.log("*categoriesSet", categoriesSet);
+  // console.log("*categoriesSet", categoriesSet);
   const categoriesArray=[...categoriesSet].sort();
-  console.log("*categoriesArray", categoriesArray);
+  // console.log("*categoriesArray", categoriesArray);
 
 
   categoriesArray.forEach((category) => {
@@ -77,7 +77,7 @@ function buildCategorizedProducts(fullProducts) {
     // console.log("  brandObj", brandObj);
     categoryObj[category] = { ...brandObj };
   });
-  console.log("categorizedProducts:", categoryObj);
+  // console.log("categorizedProducts:", categoryObj);
   return categoryObj;
 }
 

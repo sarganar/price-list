@@ -191,7 +191,10 @@ const products = [
       },
     ],
   },
-    {
+
+// PAPAS
+
+  {
     name: "Papa Coolmind 10mm",
     categories: "PAP",
     brand: "Simplot",
@@ -199,8 +202,8 @@ const products = [
     product: [
       {
         presentation: "Bolsa x2Kg",
-        price: "269",
-        hasStock: false,
+        price: "298",
+        hasStock: true,
         discount: 0,
         contagramId: null,
         featured: false,
@@ -211,10 +214,61 @@ const products = [
         hasStock: true,
         discount: 0,
         contagramId: null,
+        featured: true,
+      },
+    ],
+  },
+  {
+    name: "Papa Corte Fino",
+    categories: "PAP",
+    brand: "McCain",
+    tags: ["frita"],
+    product: [
+      {
+        presentation: "Bolsa x2.25Kg",
+        price: "430",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+      {
+        presentation: "Caja x18Kg Oferta",
+        price: "3266",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
         featured: false,
       },
     ],
   },
+  {
+    name: "Papa Crinkle Corte Ondulado",
+    categories: "PAP",
+    brand: "McCain",
+    tags: ["frita"],
+    product: [
+      {
+        presentation: "Bolsa x2.5Kg",
+        price: "502",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+      {
+        presentation: "Caja x12.5Kg Oferta",
+        price: "2383",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+
+
+
   {
     name: "Filet de Merluza",
     categories: "MAR",
@@ -232,6 +286,299 @@ const products = [
       {
         presentation: "IQF-CV x10Kg",
         price: "2520",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+  //  POLLOS Y CARNES
+  {
+    name: "Pollo Fresco",
+    categories: "CRN",
+    brand: "Pollo",
+    tags: [""],
+    product: [
+      {
+        presentation: "Nro 7 / 8 / 9/ 10 x20Kg",
+        price: "3086",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+  {
+    name: "Pata Muslo Noelma",
+    categories: "CRN",
+    brand: "Pollo",
+    tags: ["pollo", "fresca"],
+    product: [
+      {
+        presentation: "s/cadera x20Kg",
+        price: "3216",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+  {
+    name: "Pechuga sin hueso Optimo",
+    categories: "CRN",
+    brand: "Pollo",
+    tags: ["pollo", "fresco"],
+    product: [
+      {
+        presentation: "x10Kg",
+        price: "3086",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+  {
+    name: "Arrollado de Pollo JyQ",
+    categories: "CRN",
+    brand: "Pollo",
+    tags: ["fresco"],
+    product: [
+      {
+        presentation: "envasado al vacío x1Kg",
+        price: "403",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+
+  {
+    name: "Arrollado de Pollo Roquefort",
+    categories: "CRN",
+    brand: "Pollo",
+    tags: ["fresco"],
+    product: [
+      {
+        presentation: "envasado al vacío x1Kg",
+        price: "403",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+  {
+    name: "Roulette de Pollo JyQ",
+    categories: "CRN",
+    brand: "Pollo",
+    tags: ["fresco"],
+    product: [
+      {
+        presentation: "envasado al vacío x1Kg",
+        price: "405",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+{
+    name: "Roulette de Pollo con Paceta",
+    categories: "CRN",
+    brand: "Pollo",
+    tags: ["fresco"],
+    product: [
+      {
+        presentation: "envasado al vacío x1Kg",
+        price: "405",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+
+  // FRIAR
+  {
+    name: "Med de Carne Finitas Granel",
+    categories: "CRN",
+    brand: "Friar",
+    tags: [""],
+    product: [
+      {
+        presentation: "36x2x57 grs",
+        price: "1385",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: true,
+      },
+    ],
+  },
+  {
+    name: "Med de Carne Grandes Granel",
+    categories: "CRN",
+    brand: "Friar",
+    tags: [""],
+    product: [
+      {
+        presentation: "30x2x80 grs",
+        price: "1680",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+  {
+    name: "Hamburg de Carne Grandes Granel",
+    categories: "CRN",
+    brand: "Friar",
+    tags: [""],
+    product: [
+      {
+        presentation: "30x2x83,5 grs 100% Carne",
+        price: "2720",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+  {
+    name: "Hamburg de Carne Finitas Granel",
+    categories: "CRN",
+    brand: "Friar",
+    tags: [""],
+    product: [
+      {
+        presentation: "36x2x57 grs 100% Carne",
+        price: "2440",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+  {
+    name: "Med de Carne Gigantes Granel",
+    categories: "CRN",
+    brand: "Friar",
+    tags: [""],
+    product: [
+      {
+        presentation: "20x2x110 grs",
+        price: "1630",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+  {
+    name: "Hamburg de Carne Gigantes Granel",
+    categories: "CRN",
+    brand: "Friar",
+    tags: [""],
+    product: [
+      {
+        presentation: "20x2x110 grs 100% Carne",
+        price: "2535",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+  // BELTRAN
+  {
+    name: "Hamburguesa 83.5grs",
+    categories: "CRN",
+    brand: "Beltran",
+    tags: ["carne"],
+    product: [
+      {
+        presentation: "Caja 20x4x83.5 grs",
+        price: "2180",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: true,
+      },
+    ],
+  },
+  {
+    name: "Hamburguesa 60grs",
+    categories: "CRN",
+    brand: "Beltran",
+    tags: ["carne"],
+    product: [
+      {
+        presentation: "Caja 30x2x60 grs - 3.6 Kg",
+        price: "1120",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+  {
+    name: "Hamburguesa Gourmet",
+    categories: "CRN",
+    brand: "Beltran",
+    tags: ["carne"],
+    product: [
+      {
+        presentation: "Caja x4x120grs 100% Carne",
+        price: "248",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+  {
+    name: "Hamburguesa Gastronómica",
+    categories: "CRN",
+    brand: "Beltran",
+    tags: ["carne"],
+    product: [
+      {
+        presentation: "Caja x40x120grs Tipo Casera",
+        price: "1270",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+  {
+    name: "Hamburguesa La Coruña",
+    categories: "CRN",
+    brand: "Beltran",
+    tags: ["carne"],
+    product: [
+      {
+        presentation: "Caja 36x2x50grs",
+        price: "828",
         hasStock: true,
         discount: 0,
         contagramId: null,
