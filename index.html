@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DLR Lista de Precios</title>
+    <link rel="stylesheet" href="./css/normalize.min.css">
+    <link rel="stylesheet" href="./css/skeleton.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header class="container header">
+        <div class="row">
+            <div class="eight columns fb-center">
+                <h1>Lista de precios</h1>
+            </div>
+            <div class="four columns fb-center">
+                <img class="logo" src="./assets/logo-chico.png" alt="logo">
+            </div>
+        </div>
+    </header>
+    <section class="filters container">
+        <div class="row">
+            <div class="six columns">
+                <input class="search u-full-width" type="text" name="search" id="search" placeholder="Buscar por producto...">
+            </div>
+            <div class="six columns">
+                <select class="categories-select" name="categories" id="categories-select">
+                </select>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <section class="products-container container">
+
+    </section>
+
+    <section class="messages container">
+        <div class="messages-box" hidden>
+            <p>No hay resultados para mostrar.</p>
+        </div>
+    </section>
+
+
+    <script src="./js/app.js" type="module"></script>
+</body>
+
+</html>
