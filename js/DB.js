@@ -1,5 +1,5 @@
 const products = [
-  {    
+  {
     name: "Aros de Calamar",
     categories: "MAR",
     brand: "NO-BRAND",
@@ -168,6 +168,22 @@ const products = [
       {
         presentation: "x6Kg",
         price: "2286",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+  {
+    name: "Medallon de Pollo con Jamon crema de queso",
+    categories: "GRAL",
+    brand: "Artico",
+    tags: ["rebozado"],
+    product: [
+      {
+        presentation: "x6Kg",
+        price: "2316",
         hasStock: true,
         discount: 0,
         contagramId: null,
