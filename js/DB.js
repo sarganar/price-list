@@ -144,6 +144,22 @@ const products = [
     ],
   },
   {
+    name: "Croqueta de papa JyQ",
+    categories: "GRAL",
+    brand: "Artico",
+    tags: ["rebozado"],
+    product: [
+      {
+        presentation: "x6Kg",
+        price: "1894",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+    ],
+  },
+  {
     name: "Papa Coolmind 10mm",
     categories: "PAP",
     brand: "Simplot",
