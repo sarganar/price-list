@@ -198,18 +198,19 @@ const makeVisibleByTrue = (property) => decideVisibility(property, true);
 const makeVisibleByFalse = (property) => decideVisibility(property, false);
 
 function decideVisibility(property, comparator) {
+  let decideShowMessageBox = true;
   for (const category in categorizedProducts) {
     const divTable = document.querySelector(`#${category}`);
     let decideShowTable = false;
 
     for (const brand in categorizedProducts[category]) {
       const listIDs = categorizedProducts[category][brand];
-      const valueProp = [];
       let decideShowTitle = false;
       const divTitle = document.querySelector(`#${category}-${brand}`);
 
       listIDs.forEach((id) => {
         let isVisible;
+        const valueProp = [];
         const listProducts = keyedFullProducts[id].product;
         listProducts.forEach((product) => {
           valueProp.push(product[property]);
@@ -229,9 +230,13 @@ function decideVisibility(property, comparator) {
       decideShowTable = decideShowTable || decideShowTitle;
     } // for...brand
     divTable.hidden = !decideShowTable;
+    decideShowMessageBox = decideShowMessageBox && decideShowTable;
   } //for...category
+  console.log(decideShowMessageBox);
+  document.querySelector(".messages-box").hidden = !decideShowMessageBox;
 }
 
+// for 'search by words' filter
 function wordsProcessing() {
   const wordSearch = filterCriteria["byName"];
 

@@ -302,7 +302,7 @@ const products = [
     product: [
       {
         presentation: "Nro 7 / 8 / 9/ 10 x20Kg",
-        price: "3086",
+        price: "2968",
         hasStock: true,
         discount: 0,
         contagramId: null,
@@ -334,7 +334,7 @@ const products = [
     product: [
       {
         presentation: "x10Kg",
-        price: "3086",
+        price: "3198",
         hasStock: true,
         discount: 0,
         contagramId: null,
@@ -345,7 +345,7 @@ const products = [
   {
     name: "Arrollado de Pollo JyQ",
     categories: "CRN",
-    brand: "Pollo",
+    brand: "Arrollado",
     tags: ["fresco"],
     product: [
       {
@@ -362,7 +362,7 @@ const products = [
   {
     name: "Arrollado de Pollo Roquefort",
     categories: "CRN",
-    brand: "Pollo",
+    brand: "Arrollado",
     tags: ["fresco"],
     product: [
       {
@@ -378,7 +378,7 @@ const products = [
   {
     name: "Roulette de Pollo JyQ",
     categories: "CRN",
-    brand: "Pollo",
+    brand: "Arrollado",
     tags: ["fresco"],
     product: [
       {
@@ -394,7 +394,7 @@ const products = [
 {
     name: "Roulette de Pollo con Paceta",
     categories: "CRN",
-    brand: "Pollo",
+    brand: "Arrollado",
     tags: ["fresco"],
     product: [
       {
@@ -608,5 +608,6 @@ const categories = {
   VER: { description: "VERDURAS", criteria: "categories", baseID: 500 },
   SS: { description: "SIN STOCK", criteria: "hasStock" },
 };
+
 
 export { categories };
