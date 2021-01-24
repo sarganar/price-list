@@ -393,7 +393,7 @@ const products = [
     product: [
       {
         presentation: "Nro 7 / 8 / 9/ 10 x20Kg",
-        price: "2968",
+        price: "2940",
         hasStock: true,
         discount: 0,
         contagramId: null,
@@ -715,7 +715,7 @@ const products = [
     ],
   },
   {
-    name: "Crocantes de Marluza",
+    name: "Crocantes de Merluza",
     categories: "GRAL",
     brand: "Solimeno",
     tags: ["rebozado"],
@@ -731,29 +731,21 @@ const products = [
     ],
   },
   {
-    name: "Filet de Merluza Empanado",
+    name: "Filet de Merluza",
     categories: "GRAL",
     brand: "Solimeno",
     tags: ["rebozado"],
     product: [
       {
-        presentation: "x6Kg",
+        presentation: "Empanado x6Kg",
         price: "2580",
         hasStock: true,
         discount: 0,
         contagramId: null,
         featured: false,
       },
-    ],
-  },
-  {
-    name: "Filet de Merluza a la Romana",
-    categories: "GRAL",
-    brand: "Solimeno",
-    tags: ["rebozado"],
-    product: [
       {
-        presentation: "x6Kg",
+        presentation: "A la Romana x6Kg",
         price: "2640",
         hasStock: true,
         discount: 0,
@@ -779,70 +771,6 @@ const products = [
     ],
   },
   {
-    name: "Medallon Merluza c/ Brocoli y Queso",
-    categories: "GRAL",
-    brand: "Solimeno",
-    tags: ["rebozado"],
-    product: [
-      {
-        presentation: "x6Kg",
-        price: "1638",
-        hasStock: true,
-        discount: 0,
-        contagramId: null,
-        featured: false,
-      },
-    ],
-  },
-  {
-    name: "Medallon Merluza c/ Espinaca y Queso",
-    categories: "GRAL",
-    brand: "Solimeno",
-    tags: ["rebozado"],
-    product: [
-      {
-        presentation: "x6Kg",
-        price: "1638",
-        hasStock: true,
-        discount: 0,
-        contagramId: null,
-        featured: false,
-      },
-    ],
-  },
-  {
-    name: "Medallon de Merluza c/ Tomate",
-    categories: "GRAL",
-    brand: "Solimeno",
-    tags: ["rebozado"],
-    product: [
-      {
-        presentation: "x6Kg",
-        price: "1638",
-        hasStock: true,
-        discount: 0,
-        contagramId: null,
-        featured: false,
-      },
-    ],
-  },
-  {
-    name: "Medallon de Merluza Primavera",
-    categories: "GRAL",
-    brand: "Solimeno",
-    tags: ["rebozado"],
-    product: [
-      {
-        presentation: "x6Kg",
-        price: "1638",
-        hasStock: true,
-        discount: 0,
-        contagramId: null,
-        featured: false,
-      },
-    ],
-  },
-  {
     name: "Medallon de Merluza",
     categories: "GRAL",
     brand: "Solimeno",
@@ -856,16 +784,40 @@ const products = [
         contagramId: null,
         featured: false,
       },
-    ],
-  },
-  {
-    name: "Medallon de Merluza c/ Roquefort",
-    categories: "GRAL",
-    brand: "Solimeno",
-    tags: ["rebozado"],
-    product: [
       {
-        presentation: "x6Kg",
+        presentation: "Con Brocoli y Queso x6Kg",
+        price: "1638",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+      {
+        presentation: "Con Espinaca y Queso x6Kg",
+        price: "1638",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+      {
+        presentation: "Con Tomate x6Kg",
+        price: "1638",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+      {
+        presentation: "Primavera x6Kg",
+        price: "1638",
+        hasStock: true,
+        discount: 0,
+        contagramId: null,
+        featured: false,
+      },
+      {
+        presentation: "Con Roquefort x6Kg",
         price: "1693",
         hasStock: true,
         discount: 0,
@@ -874,30 +826,23 @@ const products = [
       },
     ],
   },
+
   {
-    name: "Medallon de Pollo Primavera",
+    name: "Medallon de Pollo",
     categories: "GRAL",
     brand: "Solimeno",
     tags: ["rebozado"],
     product: [
       {
-        presentation: "x6Kg",
+        presentation: "Primavera x6Kg",
         price: "1825",
         hasStock: true,
         discount: 0,
         contagramId: null,
         featured: false,
       },
-    ],
-  },
-  {
-    name: "Medallon de Pollo sin Rebozar",
-    categories: "GRAL",
-    brand: "Solimeno",
-    tags: [],
-    product: [
       {
-        presentation: "x6Kg",
+        presentation: "Sin Rebozar x6Kg",
         price: "1764",
         hasStock: true,
         discount: 0,
@@ -906,6 +851,7 @@ const products = [
       },
     ],
   },
+
   {
     name: "Milanesa de Soja",
     categories: "GRAL",
@@ -1553,7 +1499,7 @@ const products = [
       },
       {
         presentation: "Con Roquefort x5Kg",
-        price: "0000",
+        price: "",
         hasStock: false,
         discount: 0,
         contagramId: null,
@@ -2187,8 +2133,6 @@ const products = [
       },
     ],
   },
-
-
 ];
 
 export default products;

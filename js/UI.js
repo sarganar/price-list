@@ -49,6 +49,7 @@ export function printProducts() {
     for (const brand in categorizedProducts[category]) {
       const listTable = document.createElement("table");
       listTable.className = "u-full-width list-table";
+      listTable.id = `TAB-${brand}`;
       elementHTML = `
        <tbody>
        `;
@@ -248,9 +249,9 @@ function wordsProcessing() {
 
     for (const brand in categorizedProducts[category]) {
       const listIDs = categorizedProducts[category][brand];
-      const valueProp = [];
       let decideShowTitle = false;
       const divTitle = document.querySelector(`#${category}-${brand}`);
+      const divTableBrand = document.querySelector(`#TAB-${brand}`);
 
       listIDs.forEach((id) => {
         let isVisible;
@@ -268,8 +269,10 @@ function wordsProcessing() {
         //console.log("wordMatched", wordMatched);
         document.querySelector(`#ID${id}`).hidden = !isVisible;
         decideShowTitle = decideShowTitle || isVisible;
-      });
+      }); // listIDs.forEach
       divTitle.hidden = !decideShowTitle;
+      divTableBrand.hidden = !decideShowTitle;
+
       decideShowTable = decideShowTable || decideShowTitle;
     } // for...brand
     divTable.hidden = !decideShowTable;
