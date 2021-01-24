@@ -149,18 +149,21 @@ function filterProducts() {
   const allTables = document.querySelectorAll(".list-container");
   const allRows = document.querySelectorAll("tr");
   const allTitles = document.querySelectorAll("h4");
+  const allTablesBrand = document.querySelectorAll("table");
   const optionChosen = filterCriteria["byRegion"];
 
   switch (optionChosen) {
     case "ALL":
       makeAllVisible(allTitles);
       makeAllVisible(allRows);
+      makeAllVisible(allTablesBrand);
       makeAllVisible(allTables);
       break;
 
     case "SS":
       makeAllVisible(allTitles);
       makeAllVisible(allRows);
+      makeAllVisible(allTablesBrand);
       makeAllVisible(allTables);
       makeVisibleByFalse("hasStock");
       break;
@@ -168,6 +171,7 @@ function filterProducts() {
     case "DES":
       makeAllVisible(allTitles);
       makeAllVisible(allRows);
+      makeAllVisible(allTablesBrand);
       makeAllVisible(allTables);
       makeVisibleByTrue("featured");
       break;
@@ -175,6 +179,7 @@ function filterProducts() {
     default:
       makeAllVisible(allTitles);
       makeAllVisible(allRows);
+      makeAllVisible(allTablesBrand);
       makeVisibleByID(allTables, optionChosen);
       break;
   }
